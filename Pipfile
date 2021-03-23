@@ -8,9 +8,6 @@ verify_ssl = true
 [packages]
 aiohttp
 async_timeout
-getpass
-smtplib
-re
 
 [requires]
 python_version = "3.7"
