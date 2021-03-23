@@ -86,7 +86,7 @@ class Store:
             else:
                 self.recipient = prompted
         else:
-            self.recipient = self.sender
+            self.recipient = recipient
         if self.server and self.sender and not password:
             self.__password = getpass.getpass('Enter email account password: ')
         else:
