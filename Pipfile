@@ -6,8 +6,7 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-aiohttp
-async_timeout
+aiohttp = "*"
 
 [requires]
 python_version = "3.7"
